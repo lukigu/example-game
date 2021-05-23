@@ -133,11 +133,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 5dab33902fdf3d641818f3808c29b63d, type: 3}
   m_PrefabInstance: {fileID: 1403570620}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &398507740 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5dab33902fdf3d641818f3808c29b63d, type: 3}
-  m_PrefabInstance: {fileID: 1403570620}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &398507741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8d0b21db73fff846bfffd72393f33bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 398507740}
+  turnSpeed: 4
+  target: {fileID: 398507738}
+  minTurnAngle: -90
+  maxTurnAngle: 0
 --- !u!1 &1262155793
 GameObject:
   m_ObjectHideFlags: 0
